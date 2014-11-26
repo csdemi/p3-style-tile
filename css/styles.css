@@ -1,15 +1,19 @@
+body{
+	background: url("../img/paper.png");
+}
 /* Primary Header*/
 h1{
 	font-family: 'Nova Square', cursive;
-	color:#FD6E8A;
+	color:#064037;
 }
 h2,h3{
 	font-family: 'Quicksand', sans-serif;
+	color: #718D79 ;
 }
 /*Body Text*/
 p{
 	font-family: 'Ubuntu',sans-serif;
-	color: #ccc;
+	color: #9A5577;
 	letter-spacing: 2px;
 }
 /*Baseline Links*/
@@ -46,19 +50,22 @@ section {
 	width: 50px;
 }
 .color-1{
-	background: #4894B0;
+	background: #9A5577;
 }
 .color-2{
-	background: #565394;
+	background: #718D79;
+}
+.color-3{
+	background: #064037;
 }
 .pattern-1{
-	background: url("../img/paper.png");
+	background: url("../img/grey.png");
 }
 .pattern-2{
-	background: url("../img/waves.png");
+	background: url("../img/paper.png");
 }
 .pattern-3{
-	background: url("../img/bg.png");
+	background: url("../img/type.png");
 }
 /* Show Grid */
 .showgrid {
