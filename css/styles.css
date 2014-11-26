@@ -1,11 +1,14 @@
 /* Primary Header*/
 h1{
-	font-family: 'Fontdiner Swanky', cursive;
+	font-family: 'Nova Square', cursive;
 	color:#FD6E8A;
+}
+h2,h3{
+	font-family: 'Quicksand', sans-serif;
 }
 /*Body Text*/
 p{
-	font-family: 'Lobster', cursive;
+	font-family: 'Ubuntu',sans-serif;
 	color: #ccc;
 	letter-spacing: 2px;
 }
@@ -49,13 +52,13 @@ section {
 	background: #565394;
 }
 .pattern-1{
-	background: url("../img/upfeathers.png");
+	background: url("../img/paper.png");
 }
 .pattern-2{
 	background: url("../img/waves.png");
 }
 .pattern-3{
-	background: url("../img/lodyas.png");
+	background: url("../img/bg.png");
 }
 /* Show Grid */
 .showgrid {
