@@ -4,16 +4,16 @@ body{
 /* Primary Header*/
 h1{
 	font-family: 'Nova Square', cursive;
-	color:#064037;
+	color:#0A0924;
 }
 h2,h3{
 	font-family: 'Quicksand', sans-serif;
-	color: #718D79 ;
+	color: #0E216C ;
 }
 /*Body Text*/
 p{
 	font-family: 'Ubuntu',sans-serif;
-	color: #9A5577;
+	color: #C0260A;
 	letter-spacing: 2px;
 }
 /*Baseline Links*/
@@ -21,11 +21,11 @@ a:link,
 a:visited{
 	text-transform: uppercase;
 	text-decoration: none;
-	border-bottom: dashed orange 2px;
+	font-style: italic;
 }
 
 a:hover{
-	background: red;
+	background: #FF5952;
 }
 /* Set Your Own Margin & Padding */
 h2, h3, p {
@@ -40,6 +40,8 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
@@ -50,13 +52,19 @@ section {
 	width: 50px;
 }
 .color-1{
-	background: #9A5577;
+	background: #C0260A;
 }
 .color-2{
-	background: #718D79;
+	background: #0E216C;
 }
 .color-3{
-	background: #064037;
+	background: #0A0924;
+}
+.color-4{
+	background: #93AAFF;
+}
+.color-5{
+	background: #FF5952;
 }
 .pattern-1{
 	background: url("../img/grey.png");
